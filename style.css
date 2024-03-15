@@ -1,0 +1,391 @@
+.nav-item {
+    margin-left: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+   
+}
+
+.nav-item a:hover {
+    color: rgb(255, 77, 109);
+}
+
+.navbar-brand {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 25px !important;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 77, 109)  !important;
+    -webkit-text-stroke: .5px white;
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255) !important;
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.295) !important;
+    box-shadow: 0px 0px 5px black !important;
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+    filter: blur(5px);
+}
+
+.content {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: 450px;
+    color: rgb(0, 0, 0);
+    font-family: "Alegreya Sans SC", sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content h3 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+}
+
+.content h1 {
+
+    color: rgb(255, 77, 109);
+    -webkit-text-stroke: .5px white;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.content-sub-1 p {
+    color: white;
+}
+
+.content h4 {
+    font-weight: 700;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0px 0px .5px rgb(0, 0, 0));
+}
+
+.skill {
+    color: rgb(255, 77, 109);
+}
+
+.skill-main {
+    font-weight: 700;
+    color: rgb(255, 77, 109);
+    /* -webkit-text-stroke: .1px white; */
+    filter: drop-shadow(0px 0px .5px rgb(0, 0, 0));
+    font-size: 17px;
+    display: flex;
+}
+
+.skill-main img {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.services-head h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(141, 141, 141, 0.532);
+    padding-bottom: 15px;
+}
+
+/* Content 2 */
+.content-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    margin-bottom: 20px;
+    column-gap: 10px;
+    /* height: 100vh; */
+    /* margin-bottom:10%; */
+}
+
+.content-box {
+    border: .5px solid rgba(255, 255, 255, 0.509);
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    font-family: "Alegreya Sans SC", sans-serif;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.content-box:hover {
+    background-color: rgb(255, 77, 109);
+    box-shadow: 0px 0px 5px white;
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: all ease .3s;
+}
+.content-box img {
+    height: 60px;
+    width: 60px;
+    filter: contrast(2);
+    filter: drop-shadow(0px 0px 3px black);
+}
+
+.content-box h3 {
+    color: rgb(255, 77, 109);
+    -webkit-text-stroke: .5px rgb(255, 255, 255);
+}
+
+.content-box p {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.content-sub-2 img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.content-sub-2 img:hover {
+    filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+
+.content-sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-media h3
+{
+font-size: 25px;
+}
+
+/* About Css */
+.about h1
+{
+text-align: center;
+color: white;
+border-bottom: 1px solid rgba(141, 141, 141, 0.532);
+margin-bottom: 20px;
+padding-bottom:10px;
+}
+.about
+{
+    margin-bottom: 20px;
+}
+.about-intro p
+{
+color: white;
+text-transform: capitalize;
+font-family: "Alegreya Sans SC", sans-serif;
+}
+.progress
+{
+    margin: 10px;
+}
+.progression
+{
+color: white;
+font-family: "Alegreya Sans SC", sans-serif;
+border-left: 1px solid rgb(132, 132, 132);
+padding: 20px;
+}
+.about-intro
+{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
+column-gap: 30px;
+margin-bottom: 10px;
+}
+.intro p i
+{
+    font-size: 25px;
+}
+.skill 
+{
+    margin: 0;
+    display: flex;
+}
+#skill
+{
+    display: flex;
+}
+.intro-img
+{
+    display: flex;
+    justify-content: center;
+}
+.intro-img img
+{
+    display: none;
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+}
+
+/* Contact  */
+.contact-head h1
+{
+text-align: center;
+color: white;
+border-bottom: 1px solid rgb(123, 123, 123);
+padding-bottom: 10px;
+}
+.contact-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    background-color: rgba(125, 125, 125, 0.699);
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 600;
+}
+.contact-box:hover
+{
+transform: translateY(-2px);
+transition: all ease .3s;
+}
+.contact-box h5
+{
+    color: antiquewhite;
+}
+.contact-box i
+{
+font-size: 40px;
+color:rgb(255, 51, 88) ;
+}
+.contact-box a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.contact-box a:hover
+{
+    text-decoration: none;
+    color:rgb(255, 90, 120);
+}
+.contact-add
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+#location
+{
+    text-align: center;
+}
+#call
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+form input
+{
+    color: white;
+    width: 450px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Alegreya Sans SC", sans-serif;
+    height: 35px;
+    border-bottom: 1px solid white;
+}
+form input:focus
+{
+    outline: none;
+}
+form input::placeholder
+{
+    color: rgba(255, 255, 255, 0.651);
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+form textarea
+{
+    color: white;
+    width: 450px;
+    height: 130px;
+    margin: 5px;
+    border: .5px solid white;
+    font-family: "Alegreya Sans SC", sans-serif;
+    background-color: rgba(112, 111, 111, 0);
+}
+form textarea::placeholder
+{
+    color: rgba(255, 255, 255, 0.651);
+    font-family: "Alegreya Sans SC", sans-serif;
+}
+form textarea:focus
+{
+    outline: none;
+}
+#submit
+{
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+
+}
+#submit:hover
+{
+    background-color: rgb(255, 77, 109);
+    color: white;
+}
+.get-in-touch
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    margin-top: 20px;
+}
+.form-info h2
+{
+color: white;
+}
+.form-info p
+{
+color: white;
+font-family: "Alegreya Sans SC", sans-serif;
+}
+.social-img
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+.social-img img
+{
+    filter: drop-shadow(0px 0px 2px white);
+}
+.social-img img:hover
+{
+    transform: scale(1.1);
+    transition: all ease .5s;
+    cursor: pointer;
+}
